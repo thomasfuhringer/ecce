@@ -1,0 +1,27 @@
+---
+AlignEscapedNewlines: Left
+AlignTrailingComments:
+    Kind: Always
+    OverEmptyLines: 0
+AlwaysBreakAfterDefinitionReturnType: All
+BasedOnStyle: WebKit
+BraceWrapping:
+    AfterFunction: false
+BreakBeforeBraces: Custom
+BreakBeforeInheritanceComma: true
+BreakInheritanceList: AfterComma
+BreakConstructorInitializers: BeforeComma
+ColumnLimit: 0
+IndentPPDirectives: AfterHash
+IndentRequiresClause: false
+InsertNewlineAtEOF: false
+KeepEmptyLinesAtEOF: false
+LineEnding: LF
+NamespaceIndentation: None
+PointerAlignment: Left
+RemoveSemicolon: true
+RequiresClausePosition: WithFollowing
+RequiresExpressionIndentation: OuterScope
+SpaceAfterTemplateKeyword: false
+SeparateDefinitionBlocks: Always
+...
