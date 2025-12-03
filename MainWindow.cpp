@@ -11,6 +11,8 @@ MainWindow::MainWindow(QWidget* parent)
     createActionsMenusToolbars();
     text_edit = new QTextEdit();
     text_edit->setReadOnly(true);
+    text_edit->setFrameStyle(QFrame::NoFrame);
+    text_edit->setStyleSheet("padding: 8px;");
     setCentralWidget(text_edit);
 
     QSettings settings(this);
